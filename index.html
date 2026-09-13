@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Партия БУРМАЛДА</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Навигация -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="assets/logo.svg" alt="Логотип БУРМАЛДА" class="logo-img">
+                <span class="logo-text">БУРМАЛДА</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#hero">Главная</a></li>
+                <li><a href="#advantages">Преимущества</a></li>
+                <li><a href="#leader">Лидер</a></li>
+                <li><a href="#join">Присоединяйся</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Герой-секция -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <img src="assets/rally.jpg" alt="Митинг" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">ПАРТИЯ БУРМАЛДА</div>
+            <h1 class="hero-title">
+                Будущее создаем <span class="highlight">мы</span>,
+                <br>а не <span class="highlight-dim">они</span>
+            </h1>
+            <p class="hero-subtitle">Будущее смеется над проблемами — а мы их решаем</p>
+            <a href="#advantages" class="btn-primary">Узнать больше</a>
+        </div>
+    </section>
+
+    <!-- Лидер -->
+    <section class="leader-section" id="leader">
+        <div class="container">
+            <div class="leader-grid">
+                <div class="leader-photo-wrap">
+                    <img src="assets/leader_apple.jpg" alt="Меллстрой Хаммамович" class="leader-photo">
+                    <div class="leader-photo-frame"></div>
+                </div>
+                <div class="leader-info">
+                    <span class="section-tag">ГЛАВА ПАРТИИ</span>
+                    <h2 class="leader-name">Меллстрой<br>Хаммамович</h2>
+                    <p class="leader-quote">"Мы не обещаем — мы делаем. БУРМАЛДА — это не лозунг, это образ жизни."</p>
+                    <div class="leader-stats">
+                        <div class="stat">
+                            <span class="stat-num">100%</span>
+                            <span class="stat-label">Преданность делу</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">∞</span>
+                            <span class="stat-label">Энергия</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">0</span>
+                            <span class="stat-label">Компромиссы</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Сцена -->
+    <section class="stage-section">
+        <div class="stage-bg">
+            <img src="assets/leader_stage.jpg" alt="Лидер на сцене" class="stage-bg-img">
+            <div class="stage-overlay"></div>
+        </div>
+        <div class="stage-content">
+            <h2>Голос народа — голос БУРМАЛДА</h2>
+            <p>Каждый митинг — это начало перемен</p>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section class="advantages" id="advantages">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-tag">ПОЧЕМУ БУРМАЛДА</span>
+                <h2 class="section-title">Что мы <span class="title-grad">даем</span> народу</h2>
+                <div class="title-line"></div>
+                
+            </div>
+            <div class="adv-grid">
+
+                <div class="adv-card" data-delay="0">
+                    <div class="adv-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M16 12c-2-2-2-5 0-7s2-5 0-7" />
+                          <path d="M32 14c-3-2-3-6 0-8s3-6 0-8" />
+                          <path d="M48 12c-2-2-2-5 0-7s2-5 0-7" />
+                          <ellipse cx="32" cy="22" rx="18" ry="5" />
+                          <path d="M14 22l2.6 14C17 39 22 41 32 41s15-2 15.4-7L50 22" />
+                          <path d="M17 30 Q 32 35 47 30" />
+                          <path d="M24 27 L 24.5 38" />
+                          <path d="M39.5 27 L 39 38" />
+                        </svg>
+                    </div>
+                    <h3 class="adv-title">Всем хаммам!</h3>
+                    <p class="adv-desc">Уважение в каждый двор и в каждое сердце</p>
+                </div>
+
+                <div class="adv-card" data-delay="100">
+                    <div class="adv-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M32 6 L54 16 V32 C54 46 46 56 32 60 C18 56 10 46 10 32 V16 Z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M23 33 L29 39 L42 26" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="adv-title">Бесплатный салатик бурмалдатик</h3>
+                    <p class="adv-desc">Полезно, вкусно, а главное — бесплатно</p>
+                </div>
+
+                <div class="adv-card" data-delay="200">
+                    <div class="adv-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect x="12" y="8" width="40" height="48" rx="4" stroke="currentColor" stroke-width="2.5"></rect>
+                          <path d="M22 33 L 29 40 L 43 23" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <h3 class="adv-title">Новый гимн</h3>
+                    <p class="adv-desc">Гимн, который мы заслужили</p>
+                </div>
+
+                <div class="adv-card" data-delay="300">
+                    <div class="adv-icon">
+                        <svg viewBox="0 0 64 64" fill="none"><rect x="18" y="10" width="28" height="44" rx="4" stroke="currentColor" stroke-width="2"/><line x1="18" y1="18" x2="46" y2="18" stroke="currentColor" stroke-width="2"/><line x1="18" y1="46" x2="46" y2="46" stroke="currentColor" stroke-width="2"/><circle cx="32" cy="50" r="1.5" fill="currentColor"/></svg>
+                    </div>
+                    <h3 class="adv-title">Всем бурмалдафоны</h3>
+                    <p class="adv-desc">Связь, интернет и удача у каждого в кармане</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Призыв -->
+    <section class="cta-section" id="join">
+        <div class="container">
+            <h2 class="cta-title">Будущее уже здесь</h2>
+            <p class="cta-text">Присоединяйся к Партии БУРМАЛДА и стань частью перемен</p>
+            <a href="#" class="btn-primary btn-large">Вступить в партию</a>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <img src="assets/logo.svg" alt="Логотип" class="footer-logo">
+                <span>Партия БУРМАЛДА</span>
+            </div>
+            <div class="footer-links">
+                <a href="#hero">Главная</a>
+                <a href="#advantages">Преимущества</a>
+                <a href="#leader">Лидер</a>
+                <a href="#join">Присоединяйся</a>
+            </div>
+            <div class="footer-copy">
+                &copy; 2026 Партия БУРМАЛДА. Все права защищены.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

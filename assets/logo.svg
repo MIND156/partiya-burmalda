@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <g transform="skewX(-12)">
+    <rect x="90" y="60" width="310" height="105" fill="#ffffff"/>
+    <rect x="90" y="60" width="110" height="400" fill="#ffffff"/>
+    <path d="M 218 230
+             H 285
+             A 115 115 0 0 1 400 345
+             A 115 115 0 0 1 285 460
+             H 218
+             V 370
+             H 285
+             A 25 25 0 0 0 310 345
+             A 25 25 0 0 0 285 320
+             H 218
+             Z"
+          fill="#2e7bff"/>
+  </g>
+</svg>
